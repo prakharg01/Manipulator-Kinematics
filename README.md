@@ -23,6 +23,7 @@
 **DH.M** - a function to compute the DH Paramaters 
 
 **NOTE**
+
 Visualisation of the intermediate steps of the newton raphson algorithm can be done in VREP (COPPELIA SIMULATOR) 
 
 1) run the IK3DOFPATHFOLLOWING.m script that will generate path.csv and data.csv
