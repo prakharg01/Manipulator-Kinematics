@@ -28,7 +28,7 @@ Visualisation of the intermediate steps of the newton raphson algorithm can be d
 
 1) run the IK3DOFPATHFOLLOWING.m script that will generate path.csv and data.csv
 2) load the path.csv file in vrep 
-3) simulate the scene 3RIKV2.0.ttt
+3) simulate the scene 3rikv2.0.ttt
 
 ---------------------------------------------------------------------------------------------------------------------------------
 
