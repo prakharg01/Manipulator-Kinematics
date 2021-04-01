@@ -23,7 +23,6 @@
 
 **DH.M** - a function to compute the DH Paramaters 
 
-**NOTE**
 
 Visualisation of the intermediate steps of the newton raphson algorithm can be done in VREP (COPPELIA SIMULATOR) 
 
