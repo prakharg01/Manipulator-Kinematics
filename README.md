@@ -1,5 +1,5 @@
 # Kinematics-3DOF-robotic-arm-Matlab
-**The Forward and Inverse kinematics for 3DOF robotic arms in MATLAB**
+**The Forward and Inverse kinematics for 3DOF robotic arms in MATLAB and VREP**
 --------------------------------------------------------------------------------------
 
 ![Untitled Project](https://user-images.githubusercontent.com/61418939/113280137-917beb80-9301-11eb-84f0-7f5ee6c0c84a.gif)
