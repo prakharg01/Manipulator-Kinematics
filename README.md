@@ -5,7 +5,7 @@
 **FK3DOF** - forward kinematics of 3 dof planar arm 
 
 
-**FK3DOFElbow** -forward kinematocs of 3 dof (3d) arm 
+**FK3DOFElbow** -forward kinematics of 3 dof (3d) arm 
 
 
 **IK3DOF** - inverse kinematics of 3 dof planar arm
