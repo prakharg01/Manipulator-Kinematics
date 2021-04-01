@@ -2,7 +2,6 @@
 **The Forward and Inverse kinematics for 3DOF robotic arms in MATLAB**
 --------------------------------------------------------------------------------------
 
-https://user-images.githubusercontent.com/61418939/113263274-2e815900-92ef-11eb-916e-710d39e4dadf.mp4
 
 
 
