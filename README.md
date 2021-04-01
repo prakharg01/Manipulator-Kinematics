@@ -17,11 +17,17 @@
 **IK3DOFElbow** -Inverse kinematics of 3 dof (3d) arm 
 
 
-**IK3DOFITERATIVE** -Inverse kinematics of 3dof planar arm using numerical newton raphson method and the inverse pseudo jacobian
+**IK3DOFPATHFOLLOWING** -Inverse kinematics of 3dof planar arm using numerical newton raphson method and the inverse pseudo jacobian
 
 
 **DH.M** - a function to compute the DH Paramaters 
 
+**NOTE**
+Visualisation of the intermediate steps of the newton raphson algorithm can be done in VREP (COPPELIA SIMULATOR) 
+
+1) run the IK3DOFPATHFOLLOWING.m script that will generate path.csv and data.csv
+2) load the path.csv file in vrep 
+3) simulate the scene 3RIKV2.0.ttt
 
 ---------------------------------------------------------------------------------------------------------------------------------
 
