@@ -1,6 +1,6 @@
 # Kinematics-3DOF-robotic-arm-Matlab
-The **Forward and Inverse kinematics for 3DOF robotic arms** (planar and 3d) in MATLAB
-
+**The **Forward and Inverse kinematics for 3DOF robotic arms** (planar and 3d) in MATLAB
+******
 **FK3DOF** - forward kinematics of 3 dof planar arm 
 
 
