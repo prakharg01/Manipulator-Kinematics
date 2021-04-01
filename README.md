@@ -5,19 +5,19 @@
 
 
 
-**FK3DOF** - forward kinematics of 3 dof planar arm 
+**FK3DOF** - Forward kinematics of 3 dof planar arm 
 
 
-**FK3DOFElbow** -forward kinematics of 3 dof (3d) arm 
+**FK3DOFElbow** -Forward kinematics of 3 dof (3d) arm 
 
 
-**IK3DOF** - inverse kinematics of 3 dof planar arm
+**IK3DOF** - Inverse kinematics of 3 dof planar arm
 
 
-**IK3DOFElbow** -inverse kinematics of 3 dof (3d) arm 
+**IK3DOFElbow** -Inverse kinematics of 3 dof (3d) arm 
 
 
-**IK3DOFITERATIVE** -inverse kinematics of 3dof planar arm using numerical newton raphson method and the inverse pseudo jacobian
+**IK3DOFITERATIVE** -Inverse kinematics of 3dof planar arm using numerical newton raphson method and the inverse pseudo jacobian
 
 
 **DH.M** - a function to compute the DH Paramaters 
