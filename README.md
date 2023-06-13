@@ -39,6 +39,6 @@ The repository contains the following files:
 The code in this repository is licensed under the [MIT License](LICENSE).
 
 ## Acknowledgements
-The implementation of the Forward and Inverse Kinematics for the 3DOF robotic arm in MATLAB and VREP (CoppeliaSim) was developed by [Your Name]. If you have any questions or suggestions, feel free to reach out.
+The implementation of the Forward and Inverse Kinematics for the 3DOF robotic arm in MATLAB and VREP (CoppeliaSim) was developed by [Prakhar Goel]. If you have any questions or suggestions, feel free to reach out.
 
 [Prakhar Goel]: [https://www.linkedin.com/in/prakhar-goel-4616501a5/]
