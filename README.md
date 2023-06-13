@@ -1,34 +1,44 @@
-# Kinematics-3DOF-robotic-arm-Matlab
-**The Forward and Inverse kinematics for 3DOF robotic arms in MATLAB and VREP**
---------------------------------------------------------------------------------------
+# Kinematics-3DOF-Robotic-Arm-Matlab
+
+This repository provides an implementation of Forward Kinematics (FK) and Inverse Kinematics (IK) for a 3DOF spatial manipulator using both numerical and analytical methods. The kinematics are implemented in both VREP (CoppeliaSim) and MATLAB.
 
 ![Untitled Project](https://user-images.githubusercontent.com/61418939/113280137-917beb80-9301-11eb-84f0-7f5ee6c0c84a.gif)
 
+## Overview
+The purpose of this project is to calculate the FK and IK for a 3DOF robotic arm. The following MATLAB scripts are included:
 
+- `FK3DOF`: Calculates the forward kinematics for a 3DOF planar arm.
+- `FK3DOFElbow`: Calculates the forward kinematics for a 3DOF (3D) arm.
+- `IK3DOF`: Calculates the inverse kinematics for a 3DOF planar arm.
+- `IK3DOFElbow`: Calculates the inverse kinematics for a 3DOF (3D) arm.
+- `IK3DOFPATHFOLLOWING`: Calculates the inverse kinematics for a 3DOF planar arm using the numerical Newton-Raphson method and the inverse pseudo Jacobian.
+- `DH.M`: A function to compute the Denavit-Hartenberg (DH) parameters.
 
-**FK3DOF** - Forward kinematics of 3 dof planar arm 
+The intermediate steps of the Newton-Raphson algorithm can be visualized in VREP (CoppeliaSim) using the provided scene file `3rikv2.0.ttt`.
 
+## Usage
+To use the implementation, follow these steps:
+1. Run the `IK3DOFPATHFOLLOWING.m` script, which will generate `path.csv` and `data.csv`.
+2. Load the `path.csv` file in VREP (CoppeliaSim).
+3. Simulate the scene using the `3rikv2.0.ttt` file.
 
-**FK3DOFElbow** -Forward kinematics of 3 dof (3d) arm 
+Make sure to have VREP (CoppeliaSim) installed and properly configured for the simulation.
 
+## Repository Contents
+The repository contains the following files:
 
-**IK3DOF** - Inverse kinematics of 3 dof planar arm
+- `FK3DOF.m`: MATLAB script for the forward kinematics of a 3DOF planar arm.
+- `FK3DOFElbow.m`: MATLAB script for the forward kinematics of a 3DOF (3D) arm.
+- `IK3DOF.m`: MATLAB script for the inverse kinematics of a 3DOF planar arm.
+- `IK3DOFElbow.m`: MATLAB script for the inverse kinematics of a 3DOF (3D) arm.
+- `IK3DOFPATHFOLLOWING.m`: MATLAB script for the inverse kinematics of a 3DOF planar arm using the numerical Newton-Raphson method and the inverse pseudo Jacobian.
+- `DH.m`: MATLAB function to compute the DH parameters.
+- `3rikv2.0.ttt`: VREP (CoppeliaSim) scene file for visualizing the intermediate steps of the Newton-Raphson algorithm.
 
+## License
+The code in this repository is licensed under the [MIT License](LICENSE).
 
-**IK3DOFElbow** -Inverse kinematics of 3 dof (3d) arm 
+## Acknowledgements
+The implementation of the Forward and Inverse Kinematics for the 3DOF robotic arm in MATLAB and VREP (CoppeliaSim) was developed by [Your Name]. If you have any questions or suggestions, feel free to reach out.
 
-
-**IK3DOFPATHFOLLOWING** -Inverse kinematics of 3dof planar arm using numerical newton raphson method and the inverse pseudo jacobian
-
-
-**DH.M** - a function to compute the DH Paramaters 
-
-
-Visualisation of the intermediate steps of the newton raphson algorithm can be done in VREP (COPPELIA SIMULATOR) 
-
-1) run the IK3DOFPATHFOLLOWING.m script that will generate path.csv and data.csv
-2) load the path.csv file in vrep 
-3) simulate the scene 3rikv2.0.ttt
-
----------------------------------------------------------------------------------------------------------------------------------
-
+[Prakhar Goel]: [https://www.linkedin.com/in/prakhar-goel-4616501a5/]
